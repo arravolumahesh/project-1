@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.img-container{
+    display: flex;
+    background-image: url("https://s3-alpha-sig.figma.com/img/3829/9124/14e89eb073ad46bf0c32e29fc14fa150?Expires=1695600000&Signature=naoIBo6irrDspZ7XnL~MuNW1T28BAKSEYQLPuOI~UK8UJdTrewRjqwQ4jgD-i-xoYHF5hmWVhi7Ep26q~Io1xlpAKZEYknecqYp7QdmPdO99Ru7yLAZgsimAVQZbWF7Tl8oGU~1-ejJbns~ozNsm-QqULYlMuSbyPFhsZjup1ETQW4NMeu9PdcV~MuAiU3iORbuzLxxK06sI7YaqT9TjVxk-C-KYdYY7qvwr5eFfFwKwitN9kLX5A18a5AHPyDFp2Tp~TQZrA6NrmBTT2irQEp56skgTTX0oblU5fqJzDkwUHZgnQimnkUTQCPuHDZUoNjdnE1MTvpev8VgRygCiQw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    height: 780px;
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-color: #F2F2F2;
+    background-size: cover;
+    border-bottom-left-radius: 2500px;
+
+} 
+.content{
+    flex: 1;
+    margin-right: 500px;
+}
+.image-2{
+    height: 600px;
+    width: 1400px;
+    margin-left: 120px;
+    background: none;
+}
+.icon-container{
+    width: 112px;
+    height: 16px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 260px;
+    margin-left: 700px;
+}
+

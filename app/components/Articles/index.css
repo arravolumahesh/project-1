@@ -1,0 +1,23 @@
+
+.name{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+}
+.coins-image{
+    width: 320px;
+    height: 169px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg"), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.arrow{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #220d4E;
+    padding-left: 5px;
+}

@@ -1,0 +1,11 @@
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+}
+.embed-container{
+    display: flex;
+    margin-left: 95px;
+    margin-top: 60px;
+}
