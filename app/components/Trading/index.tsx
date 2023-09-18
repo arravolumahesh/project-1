@@ -3,9 +3,9 @@ import {Box,Typography} from '@mui/material';
 
 const Trading=()=>{
     return(
-        <Box sx={{height:"669px", width:"1443px", background:"#232073",display:"flex"}}>
+        <Box className="trading-box" sx={{height:"669px", width:"1443px", background:"#232073",display:"flex"}}>
             <div className='headings-container'>
-           <Typography variant='h1' sx={{
+           <Typography className='Trading-heading-1' variant='h1' sx={{
             color:"#fff",
             fontFamily:"Poppins",
             fontSize:"32px",
@@ -19,7 +19,7 @@ const Trading=()=>{
            }}>
            Trading Platforms
            </Typography>
-           <Typography variant='h4' sx={{
+           <Typography className='Trading-heading-2' variant='h4' sx={{
             color:"#fff",
             fontFamily:"Poppins",
             fontSize:"16px",
@@ -33,7 +33,7 @@ const Trading=()=>{
            }}>
            #Stay on top of the market with our powerful platforms
            </Typography>
-           <Typography variant='h6' sx={{
+           <Typography className='Trading-heading-3' variant='h6' sx={{
             color:"#fff",
             fontFamily:"Poppins",
             fontSize:"16px",
@@ -50,7 +50,7 @@ const Trading=()=>{
            <div className="web-container">
            <img className='pc-image' alt='logo' src='https://res.cloudinary.com/devj4jofj/image/upload/v1694792910/Desktop_Computer_ffct9v.jpg'/>
            <div>
-           <Typography variant='h1' sx={{
+           <Typography className='web-heading-1' variant='h1' sx={{
             color:"#000",
             fontFamily:"Poppins",
             fontSize:"16px",
@@ -63,7 +63,7 @@ const Trading=()=>{
            }}>
            Web Platform
            </Typography>
-           <Typography variant='h6' sx={{
+           <Typography className='web-heading-2' variant='h6' sx={{
             color:"#000",
             fontFamily:"Poppins",
             fontSize:"16px",
@@ -83,7 +83,7 @@ const Trading=()=>{
            <div className="web-container">
            <img className='pc-image' alt='logo' src='https://res.cloudinary.com/devj4jofj/image/upload/v1694793618/Mobile_Phone_v6oeui.jpg'/>
            <div>
-           <Typography variant='h1' sx={{
+           <Typography className='web-heading-1' variant='h1' sx={{
             color:"#000",
             fontFamily:"Poppins",
             fontSize:"16px",
@@ -96,7 +96,7 @@ const Trading=()=>{
            }}>
            Mobile App
            </Typography>
-           <Typography variant='h6' sx={{
+           <Typography className='web-heading-2' variant='h6' sx={{
             color:"#000",
             fontFamily:"Poppins",
             fontSize:"16px",

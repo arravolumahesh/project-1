@@ -2,8 +2,8 @@ import './index.css';
 import {Box,Typography} from '@mui/material';
 const Awards=()=>{
     return(
-        <Box sx={{display:"flex", flexDirection:"column",alignItems:"center",}}>
-            <Typography variant='h1' sx={{
+        <Box className="award-box" sx={{display:"flex", flexDirection:"column",alignItems:"center",}}>
+            <Typography className='award-heading' variant='h1' sx={{
                 color:"#232073",
                 fontFamily:"Poppins",
                 fontSize:"24px",
@@ -12,7 +12,7 @@ const Awards=()=>{
                 fontWeight:"600px",
                 lineHeight:"31.2px"
             }}>Awards</Typography>
-            <Typography variant='h4' sx={{
+            <Typography className='award-heading-1' variant='h4' sx={{
                 color:"var(--N1, #0A1023)",
                 textAlign:"center",
                 fontFamily:"Poppins",
@@ -20,17 +20,17 @@ const Awards=()=>{
                 fontStyle:"normal",
                 fontWeight:"700px",
                 lineHeight:"45px",
-                display:"felx",
+                display:"flex",
                 flexDirection:"column",
                 width:"660px",
                 height:"76px",
                 flexShrink:0,
                 pt:2
             }}> Awarded globally and recognized in India as most promising broker</Typography>
-            <Box sx={{display:"flex",justifyContent:"center",mt:10}}>
-            <Box sx={{display:"flex", flexDirection:"column",alignItems:"center",}}>
+            <Box className="medal-container-1" sx={{display:"flex",justifyContent:"center",mt:10}}>
+            <Box className="medal-container" sx={{display:"flex", flexDirection:"column",alignItems:"center",}}>
             <img className='medal' alt='logo' src="https://res.cloudinary.com/devj4jofj/image/upload/v1694852545/Medal_darwv3.jpg"/>
-            <Typography variant='h1' sx={{
+            <Typography className='medal-heading-1' variant='h1' sx={{
                 color:"var(--N1, #0A1023)",
                 fontFamily:"Poppins",
                 fontSize:"20px",
@@ -45,7 +45,7 @@ const Awards=()=>{
                 height:"61px",
                 flexShrink:0,
             }}>BFSI Tech Conclave 2021</Typography>
-            <Typography variant='body1' sx={{
+            <Typography className='medal-header-1' variant='body1' sx={{
                 color:"var(--N2, #2C3655)",
                 fontFamily:"Poppins",
                 fontSize:"16px",
@@ -61,9 +61,9 @@ const Awards=()=>{
                 flexShrink:0,
             }}>Express computers, enterprise mobility Pune</Typography>
             </Box>
-            <Box sx={{display:"flex", flexDirection:"column",alignItems:"center",}}>
+            <Box className="medal-container" sx={{display:"flex",flexDirection:"column",alignItems:"center",}}>
             <img className='medal' alt='logo' src="https://res.cloudinary.com/devj4jofj/image/upload/v1694852545/Medal_darwv3.jpg"/>
-            <Typography variant='h1' sx={{
+            <Typography className='medal-heading-2' variant='h1' sx={{
                 color:"var(--N1, #0A1023)",
                 fontFamily:"Poppins",
                 fontSize:"20px",
@@ -74,7 +74,7 @@ const Awards=()=>{
                 width:"318px",
                 flexShrink:0,
             }}>(Quantic) Digital Customer Experience Transformation </Typography>
-            <Typography variant='body1' sx={{
+            <Typography className='medal-header-2' variant='body1' sx={{
                 color:"var(--N2, #2C3655)",
                 fontFamily:"Poppins",
                 fontSize:"16px",
@@ -90,9 +90,9 @@ const Awards=()=>{
                 flexShrink:0,
             }}>(Quantic) Digital Customer Experience Transformation Initiative</Typography>
             </Box>
-            <Box sx={{display:"flex", flexDirection:"column",alignItems:"center",}}>
+            <Box className="medal-container" sx={{display:"flex", flexDirection:"column",alignItems:"center",}}>
             <img className='medal' alt='logo' src="https://res.cloudinary.com/devj4jofj/image/upload/v1694852545/Medal_darwv3.jpg"/>
-            <Typography variant='h1' sx={{
+            <Typography className='medal-heading-3' variant='h1' sx={{
                 color:"var(--N1, #0A1023)",
                 fontFamily:"Poppins",
                 fontSize:"20px",
@@ -105,7 +105,7 @@ const Awards=()=>{
                 flexShrink:0,
                 pt:1
             }}>BFSI Tech Conclave 2021</Typography>
-            <Typography variant='body1' sx={{
+            <Typography className='medal-header-3' variant='body1' sx={{
                 color:"var(--N2, #2C3655)",
                 fontFamily:"Poppins",
                 fontSize:"16px",

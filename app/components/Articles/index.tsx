@@ -7,15 +7,15 @@ import { BsChevronRight } from "react-icons/bs";
 
 const Articles=()=>{
     return(
-        <Box sx={{display:"flex",flexDirection:"column",alignItems:"center",mt:10}}>
-            <Box sx={{display:"flex",
+        <Box className="articles-box" sx={{display:"flex",flexDirection:"column",alignItems:"center",mt:10}}>
+            <Box className="articles-box-1" sx={{display:"flex",
             justifyContent:"center",
             width:"1440px",
             height:"160px",
             flexShrink:0,
             backgroundColor:"#220D4E",
            }}>
-                <Typography variant='h1' sx={{
+                <Typography className='open-acc-heading' variant='h1' sx={{
                     fontFamily:"Poppins",
                     fontSize:"24px",
                     textAlign:"center",
@@ -26,7 +26,7 @@ const Articles=()=>{
                     pr:2,
                     pt:5
                 }}>Open your Account Today {' '} <br/> <span className='name'>Let's take the next step together</span></Typography>
-                <div className="background-image" style={{
+                <div className="background-img-1" style={{
                     width: "282.333px",
                     height: "266px",
                     background: `url(https://res.cloudinary.com/devj4jofj/image/upload/v1694862409/boy_and_girl_working_on_computer_sxadpk.jpg), lightgray 50% / contain no-repeat`,
@@ -34,26 +34,9 @@ const Articles=()=>{
                     backgroundPosition: "top",
                     position:"inherit",
                 }}></div>
-                <Button className='button' sx={{ml:2,
-                    width:"170px",
-                    height:"49px", 
-                    borderRadius:50, 
-                    backgroundColor:"#D92365", 
-                    mt:5,
-                    boxShadow:"0px 2px 10px 0px rgba(0, 0, 0, 0.14)"
-                    }}><Typography variant='h1'
-                    sx={{color:"#F2F2F2", 
-                    width:"146px",
-                    height:"21px",
-                    fontFamily:"Poppins", 
-                    textAlign:"center",
-                    fontSize:"14px",
-                    fontStyle:"normal",
-                    fontWeight:600,
-                    lineHeight:"normal",
-                    textTransform:"uppercase"}}>OPEN AN ACCOUNT</Typography></Button>
+                <button type='button' className='account-btn'>Open An Account</button>
             </Box>
-              <Typography variant='h1' sx={{
+              <Typography className='articlesHeader-1' variant='h1' sx={{
                     fontFamily:"Poppins",
                     fontSize:"24px",
                     textAlign:"center",
@@ -69,7 +52,7 @@ const Articles=()=>{
                     flexShrink:0,
                     pt:20
                 }}>Articles</Typography>
-                <Typography variant='h6' sx={{
+                <Typography className='update-header' variant='h6' sx={{
                     fontFamily:"Poppins",
                     fontSize:"32px",
                     textAlign:"center",
@@ -83,8 +66,8 @@ const Articles=()=>{
                     flexShrink:0,
                     pt:2
                 }}>Stay Updated</Typography>
-                <Box sx={{display:"flex",flexDirection:"row",justifyContent:"center"}}>
-                <Paper sx={{
+                <Box className="coins-container-1" sx={{display:"flex",flexDirection:"row",justifyContent:"center"}}>
+                <Paper className='first-paper' sx={{
                     width:"320px",
                     height:"418px",
                     flexShrink:0,
@@ -95,30 +78,16 @@ const Articles=()=>{
                     flexDirection:"column",
                     mr:5
                 }}>
-                <div style={{
+                <div className='coin-imgs' style={{
                     width: "320px",
                     height: "169px",
                     borderRadius:"3px",
                     background: `url(https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg), lightgray 50% / contain no-repeat`,
                     backgroundSize: "cover",
                 }}>
-                    <Button className='button' sx={{mt:7,
-                    width:108,
-                    height:30, 
-                    borderRadius:3, 
-                    backgroundColor:"#D92365", 
-                    mt:19
-                    }}><Typography variant='h1'
-                    sx={{color:"#F2F2F2", 
-                    fontFamily:"Poppins", 
-                    fontSize:"16px",
-                    fontStyle:"normal",
-                    fontWeight:500,
-                    lineHeight:"30px",
-                    width:"95.538px",
-                    }}>Investment</Typography></Button>
+                    <button type='button' className='investment-btn-1'>Investment</button>
                 </div>
-                <Typography variant='h2' sx={{
+                <Typography className='invest-tip-heading' variant='h2' sx={{
                     fontFamily:"Poppins",
                     fontSize:"16px",
                     textAlign:"center",
@@ -130,7 +99,7 @@ const Articles=()=>{
                     pt:2,
                     width:"299px"
                 }}>Investment Tips for Short Term, Mid Term & Long Term Goals</Typography>
-                <Typography variant='h6' sx={{
+                <Typography className='post-name' variant='h6' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:"var(--N2, #2C3655)",
@@ -141,7 +110,7 @@ const Articles=()=>{
                     justifyContent:"center",
                     flexShrink:0,
                     pt:2,
-                }}>Post By Hans Murazi {' '} <span style={{
+                }}>Post By Hans Murazi {' '} <span className='publish-date' style={{
                     color:"var(--N2, #2C3655)",
                     fontFamily:"Poppins",
                     fontSize:"14px",
@@ -150,7 +119,7 @@ const Articles=()=>{
                     lineHeight:"22px",
                     paddingLeft:"60px"
                 }}>05 Feb 2022</span></Typography>
-                <Typography variant='h6' sx={{
+                <Typography className='paragraph' variant='h6' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:"#000",
@@ -166,11 +135,11 @@ const Articles=()=>{
                     pt:2,
                     pl:2
                 }}>There are no shortcuts to financial success. One of the few straightforward rules for making.</Typography>
-                <Box sx={{
+                <Box className="logos-container-1" sx={{
                     display:"flex",
                     p:2
                 }}>
-                    <Typography variant='h2' sx={{
+                    <Typography className='read-name' variant='h2' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:" #220D4E",
@@ -182,7 +151,7 @@ const Articles=()=>{
                 <FaLongArrowAltRight className="arrow"/>
                 </Box>
                 </Paper>
-                <Paper sx={{
+                <Paper className='first-paper' sx={{
                     width:"320px",
                     height:"418px",
                     flexShrink:0,
@@ -193,30 +162,16 @@ const Articles=()=>{
                     flexDirection:"column",
                     mr:5
                 }}>
-                <div style={{
+                <div className='coin-imgs' style={{
                     width: "320px",
                     height: "169px",
                     borderRadius:"3px",
                     background: `url(https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg), lightgray 50% / contain no-repeat`,
                     backgroundSize: "cover",
                 }}>
-                    <Button className='button' sx={{mt:7,
-                    width:108,
-                    height:30, 
-                    borderRadius:3, 
-                    backgroundColor:"#D92365", 
-                    mt:19
-                    }}><Typography variant='h1'
-                    sx={{color:"#F2F2F2", 
-                    fontFamily:"Poppins", 
-                    fontSize:"16px",
-                    fontStyle:"normal",
-                    fontWeight:500,
-                    lineHeight:"30px",
-                    width:"95.538px",
-                    }}>Investment</Typography></Button>
+                   <button type='button' className='investment-btn-1'>Investment</button>
                 </div>
-                <Typography variant='h2' sx={{
+                <Typography  className='invest-tip-heading' variant='h2' sx={{
                     fontFamily:"Poppins",
                     fontSize:"16px",
                     textAlign:"center",
@@ -228,7 +183,7 @@ const Articles=()=>{
                     pt:2,
                     width:"299px"
                 }}>Investment Tips for Short Term, Mid Term & Long Term Goals</Typography>
-                <Typography variant='h6' sx={{
+                <Typography className='post-name' variant='h6' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:"var(--N2, #2C3655)",
@@ -239,7 +194,7 @@ const Articles=()=>{
                     justifyContent:"center",
                     flexShrink:0,
                     pt:2,
-                }}>Post By Hans Murazi {' '} <span style={{
+                }}>Post By Hans Murazi {' '} <span className='publish-date' style={{
                     color:"var(--N2, #2C3655)",
                     fontFamily:"Poppins",
                     fontSize:"14px",
@@ -248,7 +203,7 @@ const Articles=()=>{
                     lineHeight:"22px",
                     paddingLeft:"60px"
                 }}>05 Feb 2022</span></Typography>
-                <Typography variant='h6' sx={{
+                <Typography className='paragraph' variant='h6' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:"#000",
@@ -264,11 +219,11 @@ const Articles=()=>{
                     pt:2,
                     pl:2
                 }}>There are no shortcuts to financial success. One of the few straightforward rules for making.</Typography>
-                <Box sx={{
+                <Box className="logos-container-1" sx={{
                     display:"flex",
                     p:2
                 }}>
-                    <Typography variant='h2' sx={{
+                    <Typography className='read-name' variant='h2' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:" #220D4E",
@@ -280,7 +235,7 @@ const Articles=()=>{
                 <FaLongArrowAltRight className="arrow"/>
                 </Box>
                 </Paper>
-                <Paper sx={{
+                <Paper className='first-paper' sx={{
                     width:"320px",
                     height:"418px",
                     flexShrink:0,
@@ -290,30 +245,16 @@ const Articles=()=>{
                     display:"flex",
                     flexDirection:"column"
                 }}>
-                <div style={{
+                <div className='coin-imgs' style={{
                     width: "320px",
                     height: "169px",
                     borderRadius:"3px",
                     background: `url(https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg), lightgray 50% / contain no-repeat`,
                     backgroundSize: "cover",
                 }}>
-                    <Button className='button' sx={{mt:7,
-                    width:108,
-                    height:30, 
-                    borderRadius:3, 
-                    backgroundColor:"#D92365", 
-                    mt:19
-                    }}><Typography variant='h1'
-                    sx={{color:"#F2F2F2", 
-                    fontFamily:"Poppins", 
-                    fontSize:"16px",
-                    fontStyle:"normal",
-                    fontWeight:500,
-                    lineHeight:"30px",
-                    width:"95.538px",
-                    }}>Investment</Typography></Button>
+                    <button type='button' className='investment-btn-1'>Investment</button>
                 </div>
-                <Typography variant='h2' sx={{
+                <Typography className='invest-tip-heading' variant='h2' sx={{
                     fontFamily:"Poppins",
                     fontSize:"16px",
                     textAlign:"center",
@@ -325,7 +266,7 @@ const Articles=()=>{
                     pt:2,
                     width:"299px"
                 }}>Investment Tips for Short Term, Mid Term & Long Term Goals</Typography>
-                <Typography variant='h6' sx={{
+                <Typography className='post-name' variant='h6' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:"var(--N2, #2C3655)",
@@ -336,7 +277,7 @@ const Articles=()=>{
                     justifyContent:"center",
                     flexShrink:0,
                     pt:2,
-                }}>Post By Hans Murazi {' '} <span style={{
+                }}>Post By Hans Murazi {' '} <span className='publish-date' style={{
                     color:"var(--N2, #2C3655)",
                     fontFamily:"Poppins",
                     fontSize:"14px",
@@ -345,7 +286,7 @@ const Articles=()=>{
                     lineHeight:"22px",
                     paddingLeft:"60px"
                 }}>05 Feb 2022</span></Typography>
-                <Typography variant='h6' sx={{
+                <Typography className='paragraph' variant='h6' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:"#000",
@@ -361,11 +302,11 @@ const Articles=()=>{
                     pt:2,
                     pl:2
                 }}>There are no shortcuts to financial success. One of the few straightforward rules for making.</Typography>
-                <Box sx={{
+                <Box className="logos-container-1" sx={{
                     display:"flex",
                     p:2
                 }}>
-                    <Typography variant='h2' sx={{
+                    <Typography className='read-name' variant='h2' sx={{
                     fontFamily:"Poppins",
                     fontSize:"14px",
                     color:" #220D4E",

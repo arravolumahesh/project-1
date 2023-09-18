@@ -1,5 +1,5 @@
 import './index.css';
-import {Box,Typography,Button} from '@mui/material';
+import {Box,Typography} from '@mui/material';
 
 const data=[
     {
@@ -22,15 +22,15 @@ const data=[
 
 const Service=()=>{
     return(
-        <Box sx={{width:1440, 
+        <Box className="service-box" sx={{width:1440, 
         height:800,     
         background:"#fff"}}>
-            <Box sx={{display:"flex",
+            <Box className="service-box-1" sx={{display:"flex",
             flexDirection:"column",
             justifyContent:"center",
             mt:5,
             }}>
-            <Typography variant='h4' sx={{color:" #232073", 
+            <Typography className='service-heading' variant='h4' sx={{color:" #232073", 
             fontFamily:"Poppins", 
             fontSize:"24px",
             textAlign:"center",
@@ -38,7 +38,7 @@ const Service=()=>{
             fontWeight:"600",
             lineHeight:"45px",
             }}>Services</Typography>
-            <Typography variant='h1' sx={{color:" #000", 
+            <Typography className='secure-heading' variant='h1' sx={{color:" #000", 
             fontFamily:"Poppins", 
             fontSize:"32px",
             textAlign:"center",
@@ -46,7 +46,7 @@ const Service=()=>{
             fontWeight:"700",
             lineHeight:"45px",
             }}>Why SBI Cap Securities Stands Out?</Typography>
-            <Typography variant='h6' sx={{color:"#0D0D0D", 
+            <Typography className='service-heading-1' variant='h6' sx={{color:"#0D0D0D", 
             fontFamily:"Poppins", 
             fontSize:"16px",
             textAlign:"center",
@@ -63,9 +63,9 @@ const Service=()=>{
                 ))}
             </ul>
              <div className='embed-container'>      
-            <iframe width="500" height="315" src="https://www.youtube.com/embed/wzNTaTLAvSI?si=JqOh2RCRhzyJUaw9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className='frame-video' width="500" height="315" src="https://www.youtube.com/embed/wzNTaTLAvSI?si=JqOh2RCRhzyJUaw9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div className='header-container'>
-            <Typography variant='h1' sx={{color:"#000", 
+            <Typography className='Heading-1' variant='h1' sx={{color:"#000", 
             fontFamily:"Poppins", 
             fontSize:"32px",
             fontStyle:"normal",
@@ -75,7 +75,7 @@ const Service=()=>{
             width:"458px",
             pl:2,
             }}>investments ka game strong with SBI Securities</Typography>
-            <Typography variant='h6' sx={{color:"#000", 
+            <Typography className='Heading-2' variant='h6' sx={{color:"#000", 
             fontFamily:"Poppins", 
             fontSize:"16px",
             fontStyle:"normal",
@@ -84,7 +84,7 @@ const Service=()=>{
             textTransform:"capitalize",
             pl:2,
             }}>#NiveshOnGameOn</Typography>
-            <Typography variant='h6' sx={{color:"#000", 
+            <Typography className='Heading-3' variant='h6' sx={{color:"#000", 
             fontFamily:"Poppins", 
             fontSize:"16px",
             fontStyle:"normal",
@@ -94,20 +94,7 @@ const Service=()=>{
             width:"487px",
             pl:2,
             }}>Who said investing couldn't be as much fun as cheering for your favourite cricket team? Watch our latest #NiveshOnGameOn Anthem Video and prepare to invest like never before.</Typography>
-            <Button className='button' sx={{ml:2,
-              width:176,
-              height:48, 
-              borderRadius:50, 
-              backgroundColor:"#D92365", 
-              boxShadow:"0px 2px 10px 0px rgba(0, 0, 0, 0.14)"}}><Typography variant='h1'
-              sx={{color:"#F2F2F2", 
-              fontFamily:"Poppins", 
-              textAlign:"center",
-              fontSize:14,
-              fontStyle:"normal",
-              fontWeight:600,
-              lineHeight:"normal",
-              textTransform:"capitalize"}}>Trend Now</Typography></Button>
+            <button className='trend-button'>Trend Now</button>
             </div>
             </div> 
         </Box>

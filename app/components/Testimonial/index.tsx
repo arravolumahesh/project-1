@@ -6,8 +6,8 @@ import { BsChevronRight } from "react-icons/bs";
 
 const Testimonial=()=>{
     return(
-        <Box sx={{width:"1440px",height:"500px",mt:15, textAlign:"center"}}>
-            <Typography variant='h6' sx={{
+        <Box className="testimonial-container" sx={{width:"1440px",height:"500px",mt:15, textAlign:"center"}}>
+            <Typography className='testimonial-heading' variant='h6' sx={{
                 color:"#232073",
                 textAlign:"center",
                 fontFamily:"Poppins",
@@ -16,7 +16,7 @@ const Testimonial=()=>{
                 fontWeight:"600px",
                 lineHeight:"31px"
             }}>Testimonials</Typography>
-            <Typography variant='h4' sx={{
+            <Typography className='testimonial-heading-1' variant='h4' sx={{
                 color:"var(--N1, #0A1023)",
                 textAlign:"center",
                 fontFamily:"Poppins",
@@ -32,8 +32,8 @@ const Testimonial=()=>{
                 ml:50,
                 pt:2
             }}> WE ARE ONLY AS GOOD AS OUR CLIENT SAY WE ARE</Typography>
-            <Box sx={{display:"flex",justifyContent:"center"}}>
-                <Paper sx={{display:"flex", 
+            <Box className='paper-box' sx={{display:"flex",justifyContent:"center"}}>
+                <Paper className='paper-1' sx={{display:"flex", 
                 flexDirection:"column",
                 width:"320px",
                 height:"204px",
@@ -49,7 +49,7 @@ const Testimonial=()=>{
                 <BsFillStarFill className="stars"/>
                 <BsFillStarFill className="stars"/>
             </div>     
-            <Typography variant="body1" sx={{
+            <Typography className='new-header' variant="body1" sx={{
                 width:"280px",
                 color:"#000",
                 fontFamily:"Poppins",
@@ -59,7 +59,7 @@ const Testimonial=()=>{
                 lineHeight:"34px",
                 p:2
             }}>“ I am Very Happy With New Platform “</Typography>
-            <Typography variant="body1" sx={{
+            <Typography className='name-header' variant="body1" sx={{
                 width:"280px",
                 color:"#000",
                 fontFamily:"Poppins",
@@ -70,7 +70,7 @@ const Testimonial=()=>{
                 textAlign:"end"
             }}>Rajesh H.</Typography>
         </Paper>
-        <Paper sx={{display:"flex", 
+        <Paper className='paper-2' sx={{display:"flex", 
                 flexDirection:"column",
                 width:"320px",
                 height:"204px",
@@ -87,7 +87,7 @@ const Testimonial=()=>{
                 <BsFillStarFill className="stars"/>
                 <BsFillStarFill className="stars"/>
             </div>     
-            <Typography variant="body1" sx={{
+            <Typography className='new-header' variant="body1" sx={{
                 width:"280px",
                 color:"#000",
                 fontFamily:"Poppins",
@@ -97,7 +97,7 @@ const Testimonial=()=>{
                 lineHeight:"34px",
                 p:2
             }}>“ I am Very Happy With New Platform “</Typography>
-            <Typography variant="body1" sx={{
+            <Typography className='name-header' variant="body1" sx={{
                 width:"280px",
                 color:"#000",
                 fontFamily:"Poppins",
@@ -108,7 +108,7 @@ const Testimonial=()=>{
                 textAlign:"end"
             }}>Rajesh H.</Typography>
         </Paper>
-        <Paper sx={{display:"flex", 
+        <Paper className='paper-3' sx={{display:"flex", 
                 flexDirection:"column",
                 width:"320px",
                 height:"204px",
@@ -125,7 +125,7 @@ const Testimonial=()=>{
                 <BsFillStarFill className="stars"/>
                 <BsFillStarFill className="stars"/>
             </div>     
-            <Typography variant="body1" sx={{
+            <Typography className='new-header' variant="body1" sx={{
                 width:"280px",
                 color:"#000",
                 fontFamily:"Poppins",
@@ -135,7 +135,7 @@ const Testimonial=()=>{
                 lineHeight:"34px",
                 p:2
             }}>“ I am Very Happy With New Platform “</Typography>
-            <Typography variant="body1" sx={{
+            <Typography className='name-header' variant="body1" sx={{
                 width:"280px",
                 color:"#000",
                 fontFamily:"Poppins",
@@ -158,4 +158,4 @@ const Testimonial=()=>{
     )
 }
 
-export default Testimonial
+export default Testimonial 
